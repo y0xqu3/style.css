@@ -9735,20 +9735,9 @@ h6,
 }
 
 .blog-item:hover {
-  box-shadow: 0 0 30px #6999ff;
+  box-shadow: 0 0 30px #CCCCCC;
 }
-.blog-item img {
-  transition: .5s;
-}
-.blog-item img:hover{
-  filter: sepia(60%);
-}
-.sw img{
-  transition: 1s;
-}
-.sw img:hover{
-  box-shadow: 0 0 30px #feeb02;
-}
+
 .blog-date {
   position: absolute;
   width: 60px;
@@ -9778,22 +9767,4 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-.pucca{
-  border-right: 2px solid white;
-}
-.swinger{
-  border-left: 2px solid white;
-}
-
-.play i{
-  margin-top: 5px;
-  font-size: 5rem;
-  color: blue;
-  margin-left: 2rem;
-  z-index: 99;
-}
-.play i:hover{
-  color: var(--primary);
 }
